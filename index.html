@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Assigment</title>
+    <link rel="stylesheet" href="https://ucertify.com/layout/themes/bootstrap4/ux/css/uc_global.css" />
+    <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/main_sass/main.css" />
+    <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/bootstrap4.css" />
+    <link rel="cononical" href="https://www.ucertify.com/utils/?util=icomoon" />
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="border-bottom border-dark font16">
+    <ul class="nav">
+        <li class="nav-item ml-2">
+          <a class="nav-link disabled text-dark bolder dt" aria-current="page" href="#"><i class="icomoon-roster-sm"></i>MyLibrary</a>
+        </li>
+        <li class="nav-item ml-2">
+          <a class="nav-link disabled text-dark" href="#"><i class="icomoon-roster-sm"></i>Enroll</a>
+        </li>
+        <li class="nav-item ml-2">
+          <a class="nav-link disabled text-dark" href="#"><i class="icomoon-roster-sm"></i>Inbox</a>
+        </li>
+        <li class="nav-item ml-2 ">
+            <a class="nav-link disabled text-dark" href="#"><i class="icomoon-roster-sm"></i>My Profile</a>
+          </li>
+          <li class="nav-item border-bottom border-primary ml-1 ">
+            <a class="nav-link disabled text-dark border-bottom border-primary  " href="#"><i class="icomoon-roster-sm"></i>Admin</a>
+          </li>
+      </ul>
+    </div>
+    <div class="row mt-4">
+        <div class="col-2">
+          <div class="input-group ">
+            <input type="text"  value="uCertify" class="form-control border border-right-0" />
+            <div>
+                <button type="button" class="btn border border-left-0  border-right-0 form-control"></button>
+            </div>
+            <div>
+                <button type="button" class="btn dropdown-toggle border border-left-0 form-control"></button>
+            </div>
+        </div>
+        </div>
+        <div class=" btn-group text-dark" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn border-primary bg-light"><i class="icomoon-roster-sm"></i>Roster</button>
+                <button type="button" class="btn border-primary dropdown-toggle"><i class="icomoon-roster-sm"></i>Manage</button>
+                <button type="button" class="btn border-primary dropdown-toggle"><i class="icomoon-roster-sm"></i>Report</button>
+                <button type="button" class="btn border-primary"><i class="icomoon-roster-sm"></i>Enroll</button>
+        </div>
+        <di class="row d-flex"></di>
+        <div class=" justify-content-end ml-xl-auto " role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-primary mr-1 ">LMS Configuration</button>
+            <button type="button" class="btn btn-outline-primary mr-3 text-dark dropdown-toggle"><i class="icomoon-roster-sm"></i>Export</button>
+    </div>
+    </div>
+    </div>
+</div>
+<div class="container mt-4 ">   
+     <div class="d-flex">
+            <div class="d-inline-flex">
+            <button type="button" class="btn border-primary border-0 bg-light"><i class="icomoon-roster-sm"></i></button>
+            </div>
+            <div class=" btn-group text-dark ml-2" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn border-primary bg-light "><i class="icomoon-roster-sm"></i>Roster</button>
+                <button type="button" class="btn border-primary "><i class="icomoon-roster-sm"></i>Lesson</button>
+                <button type="button" class="btn border-primary "><i class="icomoon-roster-sm"></i>Practice</button>
+                <button type="button" class="btn border-primary dropdown-toggle "><i class="icomoon-roster-sm"></i>PrepEngine</button>
+                <button type="button" class="btn border-primary dropdown-toggle"><i class="icomoon-roster-sm"></i>Analytics</button>
+            </div>
+                <div class=" ml-xl-auto d-flex justify-content-end custom-control custom-switch pt-1">
+                  <label for="customSwitch1" class="pr-5">Test Mode Only</label>
+                  <input type="checkbox" class="custom-control-input " id="customSwitch1">
+                  <label class="custom-control-label"></label>
+                </div>           
+    </div>
+</div>
+<div class="container">
+    <table class="table table-responsive-l mt-4">
+        <thead>
+            <tr>
+              <th scope="col">
+                  <div class="d-flex mt-3 p-0 ">
+                      <input class="mr-1" type="checkbox" disabled="true" />
+                      <button class=" border d-flex border-primary bg-white dropdown-toggle pl-1 pr-1 pt-1 pb-2"></button>
+                  </div>
+              </th>
+              <th scope="col" class="width90 height32 pb-4 ">
+                  StudentName
+                  <div class="dropdown-toggle"><small>Tag/Status</small></div>
+              </th>
+              <th scope="col">
+                CourseName
+                <div class="dropdown-toggle"><small>CRN/CourseStatus</small></div>
+              </div>
+          </th>
+          <th scope="col" class="pl-5">
+              Instructor
+              <div class="dropdown-toggle"><small>Section</small></div>
+          </th>
+          <th scope="col">
+            Readiness
+            <div class="dropdown-toggle"><small></small></div>
+          </div>
+          <th scope="col">
+            Start
+            <div><small>Time Passed</small></div>
+            <div class="dropdown-toggle"></div>
+          </div>
+          <th scope="col">
+            Target
+            <div><small>Time Needed</small></div>
+            <div class="dropdown-toggle"></div>
+          </div>
+          <th scope="col">
+            Estimated
+            <div class="dropdown-toggle"><small>Time Required</small></div>
+          </div>
+          <th scope="col">
+            Last Login
+            <div><small>Time Passed</small></div>
+            <div class="dropdown-toggle"></div>
+          </div>
+          <th scope="col">
+            Actions
+          </div>
+        </tr>
+        </thead>
+        <tbody>
+
+          <tr class="disabled1 text-muted">
+            <td scope="row">
+              <div class="d-flex mt-4">
+              <input class="mr-1 mt-1" type="checkbox" id="first" />
+              <label for="first">1</label> 
+              </div>
+          </td>
+            <td class="width160 d-flex border-top-0 pl-3 ">
+              <img src="https://img.freepik.com/free-psd/engraved-black-logo-mockup_125540-223.jpg?size=338&ext=jpg" alt="" class="img-fluid rounded-circle" height="36px" width="36px" class="p-1">
+              <div class="text-truncate d-inline-block m-2 ml-1">Abhishek Kumar</div> 
+            </td>
+            <td>
+              <div class="d-flex flex-column">
+              <div>App Training</div>
+              <div><small>app-training</small></div> 
+              <div>icon</div>
+              <div>&NonBreakingSpace;</div>
+              </div>
+            </td>
+            <td class="pl-5">
+              <div class="d-flex flex-column ">
+              <div>Dhiroo Verma</div>
+              <div><small class="badge badge-primary">new</small></div> 
+              <div>
+            </td>
+            <td>
+              <div class="d-flex flex-column">
+              <div class="ml-3"><img src="./first.png" class="width20 alt="default"></div>
+              <div class="ml-3">58%</div> 
+              <div>
+              </td>
+            <td>
+              <div class="d-flex flex-column">
+              <div>24-APR-19</div>
+              <div><small>2.1 Years</small></div> 
+              </div>
+            </td>
+            <td>
+              <div class="d-flex flex-column">
+              <div>25-JUN-19</div>
+              <div><small>NA</small></div> 
+              </div>
+            </td>
+            <td>
+              <div class="d-flex flex-column">
+              <div>12-JAN-23</div>
+              <div><small>1.6 Years</small></div> 
+              </div>
+            </td>
+            <td>
+              <div class="d-flex flex-column">
+              <div class="text-danger">21-FEB-19</div>
+              <div><small>2.3 Years</small></div> 
+              </div>
+            </td>
+            <td>            
+            <div class="btn-group">
+              <button type="button" class="btn border-primary border-right-0 pr-2">
+                  <i class=" icomoon-24px-settings"></i>
+              </button>
+              <button type="button"  class="btn border-primary border-left-0 dropdown-toggle p1-0">
+              </button>
+          </div>
+          </td>
+          </tr>
+
+          <tr>
+            <td scope="row">
+              <div class="d-flex mt-4 ">
+              <input class="mr-1 mt-1" type="checkbox" id="first" />
+              <label for="first">2</label> 
+              </div>
+          </td>
+          <td class="width180 d-flex pl-3">
+            <div class=" p-2 bg-success border rounded-circle"><strong class="text-light">AP</strong></div>
+            <div class="text-truncate d-inline-block m-2 ml-1">Abhishek Pandey</div> 
+          </td>
+          <td>
+            <div class="d-flex flex-column">
+            <div>App Training</div>
+            <div><small>app-training</small></div> 
+            <div>icon</div>
+            <div>&NonBreakingSpace;</div>
+
+            </div>
+          </td>
+          <td class="pl-5">
+            <div class="d-flex flex-column">
+            <div>Swati Kesarwani</div>
+            <div><small class="badge badge-primary">Merged Shumbhunath Ap</small></div> 
+            <div>
+          </td>
+          <td>
+            <div class="d-flex flex-column">
+            <div class="ml-3"><img src="./second.png" class="width20 "alt=""></div>
+            <div class="ml-3">64%</div> 
+            <div>
+            </td>
+          
+            <td>
+              <div class="d-flex flex-column">
+              <div>18-FEB-17</div>
+              <div><small>4.3 Years</small></div> 
+              </div>
+            </td>
+            <td>
+              <div class="d-flex flex-column">
+              <div>18-JUN-17</div>
+              <div><small>NA</small></div> 
+              </div>
+            </td>
+            <td>
+              <div class="d-flex flex-column">
+              <div>03-DEC-23</div>
+              <div><small>2.5 Years</small></div> 
+              </div>
+            </td>
+            <td>
+              <div class="d-flex flex-column">
+                <div class="text-danger">14-MAY-17</div>
+                <div><small>4.1 Years</small></div> 
+              </div>
+            </td>
+            <td>
+              <div class="btn-group">
+                <button type="button" class="btn border-primary border-right-0 pr-2">
+                    <i class=" icomoon-24px-settings s3"></i>
+                </button>
+                <button type="button"  class="btn border-primary border-left-0 dropdown-toggle p1-0"
+                    data-toggel="dropdown">
+                </button>
+            </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+</body>
+</html>
